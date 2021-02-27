@@ -4,4 +4,4 @@ I made it to demonstrate my skills in learning how to use procedural generation 
 
 # Current State
 Currently the game generates a simple dungeon that will be different each time you start the game that has various monsters placed throughout.
-Currently the monsters do not move or attack but the next versoin will be a more complete game with proper battle mechanics and an ending.
+Monsters will attempt to follow the player when they see you. You can attack monsters by walking into them
