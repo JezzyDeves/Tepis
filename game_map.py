@@ -30,7 +30,10 @@ class GameMap:
         )  # Tiles the player has seen before
 
         self.tiles[30:33, 22] = tile_types.wall
-
+    @property
+    def gamemap(self) -> GameMap:
+        return self
+        
     @property
     def actors(self) -> Iterator[Actor]:
         """Iterate over this maps living actors."""
